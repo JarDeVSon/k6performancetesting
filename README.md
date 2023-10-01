@@ -49,7 +49,7 @@ corepack enable
 Execute os comandos abaixo para instalar das dependências do projeto:
 
 ```sh
-cd curso-k6-basico/api
+cd api
 yarn install
 yarn dev
 ```
