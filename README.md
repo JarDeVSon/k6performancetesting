@@ -40,6 +40,7 @@ Para liberar o gerenciador de pacotes Yarn:
 
 ```
 corepack enable
+
 ```
 
 Execute os comandos abaixo para instalar das dependências do projeto:
@@ -67,4 +68,4 @@ k6 run breakpoint-test.js
 ___
 
 Made with ❤️ by [Jardeson Santos](https://github.com/JarDeVSon). [Meu Linkedin](https://www.linkedin.com/in/jardeson-santosqa).
----
+___
