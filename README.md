@@ -35,6 +35,7 @@
 ## 👨🏻‍💻 Como executar o projeto
 
 [Node.js](https://nodejs.org/) v16 ou superior para executar.
+[K6](https://k6.io/docs/get-started/installation/) instalar de acordo com seu sistema operacional.
 
 Para liberar o gerenciador de pacotes Yarn:
 
