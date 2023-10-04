@@ -1,9 +1,5 @@
 # Introdução aos testes de performance com k6
 
-<h1 align="left">
-    <img src=".github/logo-stiker.svg" width="250px">
-</h1>
-
 # User API
 
 ## 🔖 Requisitos funcionais
@@ -54,4 +50,21 @@ yarn install
 yarn dev
 ```
 
+## Running the tests
+
+In this project, you can run tests via CLI using `k6` and the flag `k6 run` with the suite of the specific test:
+
+```sh
+k6 run smoke-test.js
+k6 run load-test.js
+k6 run soak-test.js
+k6 run spike-test.js
+k6 run stress-test.js
+k6 run breakpoint-test.js
+
+```
+
+___
+
+Made with ❤️ by [Jardeson Santos](https://github.com/JarDeVSon). [Meu Linkedin](https://www.linkedin.com/in/jardeson-santosqa).
 ---
