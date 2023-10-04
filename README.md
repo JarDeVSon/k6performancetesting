@@ -34,14 +34,12 @@
 
 ## 👨🏻‍💻 Como executar o projeto
 
-[Node.js](https://nodejs.org/) v16 ou superior para executar.
-[K6](https://k6.io/docs/get-started/installation/) instalar de acordo com seu sistema operacional.
+- [Node.js](https://nodejs.org/) v16 ou superior para executar.
+- [K6](https://k6.io/docs/get-started/installation/) instalar de acordo com seu sistema operacional.
 
 Para liberar o gerenciador de pacotes Yarn:
-
-```
+```sh
 corepack enable
-
 ```
 
 Execute os comandos abaixo para instalar das dependências do projeto:
@@ -63,9 +61,7 @@ k6 run soak-test.js
 k6 run spike-test.js
 k6 run stress-test.js
 k6 run breakpoint-test.js
-
 ```
-
 ___
 
 Made with ❤️ by [Jardeson Santos](https://github.com/JarDeVSon). [Meu Linkedin](https://www.linkedin.com/in/jardeson-santosqa).
