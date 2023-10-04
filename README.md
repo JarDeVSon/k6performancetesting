@@ -50,9 +50,9 @@ yarn install
 yarn dev
 ```
 
-## Running the tests
+## Executando os testes
 
-In this project, you can run tests via CLI using `k6` and the flag `k6 run` with the suite of the specific test:
+Neste projeto, você pode executar testes via CLI usando `k6` e a flag `k6 run` com o conjunto do teste específico:
 
 ```sh
 k6 run smoke-test.js
