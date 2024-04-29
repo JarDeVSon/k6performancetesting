@@ -1,6 +1,7 @@
 import http from 'k6/http';
 import { check, sleep } from 'k6';
 import uuid from './libs/uuid.js';
+import { htmlReport } from "https://raw.githubusercontent.com/benc-uk/k6-reporter/main/dist/bundle.js";
 
 export const options = {
     // Key configurations for avg load test in this section
@@ -14,7 +15,11 @@ export const options = {
         http_req_duration: ['p(95)<2000'], // 95% of requests should be below 2s
     }
 };
-
+export function handleSummary(data) {
+    return {
+      "index.html": htmlReport(data),
+    };
+  }
 export default function () {
     const url = "http://localhost:3333/signup";
 
